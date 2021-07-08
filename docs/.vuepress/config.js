@@ -1,10 +1,19 @@
-module.exports = () => {
-  return [
+module.exports = {
+  //////////  主题信息 ///////////
+  themeConfig: {
+    //git 仓库地址
+    repo: "https://github.com/BluetronSupLink/ddd",
+    // 是否编辑链接
+    editLinks: true,
+    // 编辑链接文字
+    editLinkText: "在 GitHub 上编辑此页",
+
+    sidebar: [
     '',
     '00/',
     {
       title: '基础篇',
-      path: '/ddd/01/',
+      path: '/01/',
       collapsable: true,
       children: [
         '01/01.md',
@@ -16,7 +25,7 @@ module.exports = () => {
     },
     {
       title: '进阶篇',
-      path: '/ddd/02/',
+      path: '/02/',
       collapsable: true,
       children: [
         '02/01.md',
@@ -29,7 +38,7 @@ module.exports = () => {
     },
     {
       title: '实战篇',
-      path: '/ddd/03/',
+      path: '/03/',
       collapsable: true,
       children: [
         '03/01.md',
@@ -46,5 +55,15 @@ module.exports = () => {
     },
     '04/',
     '04/01.md'
-  ]
-}
+  ],
+
+    // 嵌套的标题链接深度，默认的深度为1。
+    sidebarDepth: 3,
+
+    //搜索
+    search: true,
+    searchMaxSuggestions: 10,
+    lastUpdated: "Last Updated" // string | boolean
+  },
+
+};

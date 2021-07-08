@@ -25,12 +25,25 @@
   - [18 | 知识点串讲：基于 DDD 的微服务设计实例](./03/08.md)
   - [19 | 总结（一）：微服务设计和拆分要坚持哪些原则？](./03/09.md)
   - [20 | 总结（二）：分布式架构关键设计 10 问](./03/10.md)
- - [结束 | 所谓高手，就是跨过坑和大海！](./04/) 
- - [基于 DDD 的微服务设计实例代码详解](./04/01.md) 
-
+- [结束 | 所谓高手，就是跨过坑和大海！](./04/)
+- [基于 DDD 的微服务设计实例代码详解](./04/01.md)
 
 注：此知识偏理论，不过根据描述，可以对应用到自己的项目中，但是领域建模感觉还是很难，而 DDD 的战略设计（领域分析、建模）又是重点，总之感觉还是挺难落地的。
 
-## 推荐阅读
+## 推荐阅读 大厂经验
 
-- [美团-领域驱动设计在互联网业务开发中的实践](https://tech.meituan.com/2017/12/22/ddd-in-practice.html?utm_source=wechat_session&utm_medium=social&utm_oi=698166473230680064) ：以一个抽奖为例子，讲述了如何设计和落地成代码的一篇文章
+### 阿里 DDD 系列
+
+- [第一讲：Domain Primitive](https://zhuanlan.zhihu.com/p/340911587)
+
+- [第二讲：应用架构](https://zhuanlan.zhihu.com/p/343388831)
+
+- [第三讲：Repository](https://zhuanlan.zhihu.com/p/348706530)
+
+- [第四讲：领域层设计规范](https://zhuanlan.zhihu.com/p/356518017)
+
+- [第五讲：聊聊如何避免写流水账代码](https://zhuanlan.zhihu.com/p/366395817)
+
+### 美团
+
+- [美团-领域驱动设计在互联网业务开发中的实践](https://tech.meituan.com/2017/12/22/ddd-in-practice.html?utm_source=wechat_session&utm_medium=social&utm_oi=698166473230680064)
